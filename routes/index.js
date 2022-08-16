@@ -31,7 +31,7 @@ var upload = multer( {
     }
 
   }
-}).array('_anh', 6);
+}).array('_anh', 3);
 
 const uri = "mongodb+srv://tienlcvb2002:6RGV5nq1myv4JDL6@cluster0.1vruet8.mongodb.net/lab6?retryWrites=true&w=majority";
 mongoose.connect(uri).catch(err => console.log(err));
